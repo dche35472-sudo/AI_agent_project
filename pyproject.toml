@@ -1,0 +1,18 @@
+[project]
+name = "langchain_project"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "daiche", email = "2592328108@qq.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+langchain_project = "langchain_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
